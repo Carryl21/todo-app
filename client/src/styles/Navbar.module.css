@@ -1,0 +1,28 @@
+.navbar {
+  padding: 12px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #121212;
+  box-sizing: border-box;
+}
+
+.links {
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 13.5px;
+  color: #7e7e7e;
+}
+
+.navbar a:hover {
+  color: azure;
+}

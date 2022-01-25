@@ -1,0 +1,27 @@
+.container {
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.container form {
+  position: relative;
+}
+
+.container input {
+  border: 0;
+  border-radius: 20px;
+  padding: 3px;
+  padding-left: 10px;
+  font-family: "Quicksand";
+  font-size: small;
+  width: 100%;
+  color: azure;
+  background-color: #7e7e7e;
+}
+
+.container input::placeholder {
+  color: azure;
+}

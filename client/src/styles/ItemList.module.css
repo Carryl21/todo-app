@@ -1,0 +1,27 @@
+.list {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.list div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list p {
+  margin-top: 3px;
+  margin-bottom: 5px;
+  font-size: small;
+  color: azure;
+}
+
+.list button {
+  border: 0;
+  color: azure;
+  background-color: transparent;
+}
+
+.list button:hover {
+  color: #7e7e7e;
+}
